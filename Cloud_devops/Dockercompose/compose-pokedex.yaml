@@ -1,0 +1,6 @@
+services:
+  pokedex:
+    image: flask-pokedex:1.0
+    container_name: pokedex
+    ports:
+      - "3000:3000"
